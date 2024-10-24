@@ -1,0 +1,33 @@
+{
+  "name": "shopi-mw-be",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/server.js",
+    "build": "tsc",
+    "dev": "tsc-watch --onSuccess \"node dist/server.js\"",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/cookie": "^0.6.0",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.5.4",
+    "tsc-watch": "^6.2.0",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cookie": "^0.7.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nonce": "^1.0.4",
+    "path": "^0.12.7",
+    "querystring": "^0.2.1",
+    "soap": "^1.1.3"
+  }
+}
